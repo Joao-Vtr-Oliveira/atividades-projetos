@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display';
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 450px;
+    width: 300px;
+    background-color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: 300px;
+}
+
+.img {
+    width: 100%;
+    border: 1px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: hsl(223, 47%, 23%);
+}
+
+.sub-titulo {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.plano{
+    height: 80px;
+    width: 280px;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.plano-anual {
+    display: flex;
+}
+
+.textos-plano {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.text-1 {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%)
+}
+
+.text-2 {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change a {
+    font-size: 15px;
+    color: hsl(245, 75%, 52%);
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 280px;
+    color: hsl(225, 100%, 98%);
+}
+
+.cancelar {
+    padding-top: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%)
+}

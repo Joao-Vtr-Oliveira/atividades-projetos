@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area {
+    display: grid;
+    grid: 1fr 1fr;
+    grid-template-areas: 'area-lateral imagem' ;
+}
+
+.area-lateral {
+    width: 550px;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 70px;
+    padding-right: 70px;
+    grid-area: area-lateral;
+}
+
+.titulo {
+    padding-top: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.roxo {
+    color: hsl(277, 64%, 61%);
+}
+
+.sub-titulo {
+    padding-right: 25px;
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: inter;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.valores{
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.numero {
+    padding-top: 90px;
+    padding-bottom: 10px;
+    font-family: 'inter';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.descricao-numero {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+}
+
+.imagem {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    grid-area: imagem;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 550px;
+    border: 1px solid transparent;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.fundo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 550px;
+    height: 452.594px;
+    background-color: hsla(277, 64%, 61%, 50%);
+    z-index: 1;
+}
+
+@media(max-width: 1100px){
+    .area {
+        grid-template-areas:
+        "imagem"
+        "area-lateral"
+        ;
+    }
+    .area-lateral {
+        width: 550px;
+        text-align: center;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .numero{
+        padding-top: 30px;
+
+    }
+
+}
+@media(max-width: 580px) {
+    .area-lateral {
+        width: 400px;
+    }
+    .img {
+        width: 400px;
+    }
+    .fundo{
+        width: 400px;
+        height: 330.7px;
+    }
+}
+
+@media(max-width: 420px) {
+    .area-lateral {
+        width: 300px;
+    }
+    .img {
+        width: 300px;
+    }
+    .fundo{
+        width: 300px;
+        height: 248.13px;
+    }
+}

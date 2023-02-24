@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area {
+    height: 330px;
+    width: 200px;
+    background-color: hsl(216, 50%, 16%);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #111;
+}
+
+.area-nft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areaimg {
+    width: 180px;
+    padding-top: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.teste {
+    position: absolute;
+    width: 100%;
+    height: 92%;
+    top: 11px;
+    left: 0px;
+    background-color: rgba(0, 255, 247, 50%);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.img2 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    height: 35px;
+}
+
+.teste:hover{
+    opacity: 1;
+}
+
+.textos {
+    padding-left: 11px;
+    padding-right: 11px;
+    font-family: Outfit;
+}
+
+.titulo {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.titulo:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.sub-titulo {
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.preco-tempo {
+    display: flex;
+    font-size: 11px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.preco {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+.ethereum {
+    height: 13px;
+    padding-right: 5px;
+    align-self: center;
+}
+
+.tempo {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.clock {
+    height: 11px;
+    padding-right: 5px;
+    align-self: center;
+}
+
+.criacao{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+}
+
+
+.avatar {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    height: 20px;
+    
+}
+
+.criador {
+    font-size: 11px;
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.criador a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.criador a:hover {
+    color: hsl(178, 100%, 50%);
+}
