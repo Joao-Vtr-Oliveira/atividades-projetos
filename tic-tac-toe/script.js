@@ -10,11 +10,11 @@ function verifyNames() {
   name1 = inName1.value;
   name2 = inName2.value;
   if (name1 == "") {
-    alert("Por favor, digite um nome válido para o primeiro player");
+    alert("Please, write a valid name for the first player.");
     inName1.focus();
     return;
   } else if (name2 == "") {
-    alert("Por favor, digite um nome válido para o segundo player");
+    alert("Please, write a valid name for the second player");
     inName2.focus();
     return;
   } else {
@@ -59,7 +59,7 @@ function changeNames() {
   } else if (turnPlayer == "player2") {
     currentPlayer = inName2.value;
   }
-  document.querySelector("#turnPlayerArea").textContent = `Vez do: ${currentPlayer}`;
+  document.querySelector("#turnPlayerArea").textContent = `player's turn: ${currentPlayer}`;
 }
 function click(ev) {
   const span = ev.currentTarget;
@@ -137,7 +137,7 @@ function draw() {
   
   const turnPlayerArea = document.querySelector("#turnPlayerArea");
   turnPlayerArea.classList.add('draw');
-  turnPlayerArea.textContent = `Empate!`;
+  turnPlayerArea.textContent = `Draw!`;
   prepareBtn();
 }
 function win() {
@@ -145,7 +145,7 @@ function win() {
   
   const turnPlayerArea = document.querySelector("#turnPlayerArea");
   turnPlayerArea.classList.add('winner');
-  turnPlayerArea.textContent = `Vencedor: ${currentPlayer}`;
+  turnPlayerArea.textContent = `Winner: ${currentPlayer}`;
   prepareBtn();
 }
 function prepareBtn() {
@@ -170,7 +170,7 @@ function playAgain() {
   document.querySelector('#turnPlayerArea').textContent = 'Status:'
 }
 function error() {
-  alert('Por favor, incie o jogo primeiro.');
+  alert('Please, start the game first.');
   document.querySelector('#btnConfirm').focus();
 }
 
