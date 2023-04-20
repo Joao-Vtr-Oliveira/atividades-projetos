@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"/>
+  </head>
+
+  <body>
+    <h1 id="h1">Tic-Tac-Toe</h1>
+    <input class="inputs" type="text" id="inName1" placeholder="Player 1">
+    <br />
+    <input class="inputs" type="text" id="inName2" placeholder="Player 2">
+    <br />
+    <button class="buttons" id="btnConfirm">Confirm</button>
+    <hr />
+    <h2><span id="turnPlayerArea" class="texts">Status:</span></h2>
+    <div class="area">
+      <section id="gameBoard">
+        <span class="cursor" data-location="0.0"></span>
+        <span class="cursor" data-location="0.1"></span>
+        <span class="cursor" data-location="0.2"></span>
+        <span class="cursor" data-location="1.0"></span>
+        <span class="cursor" data-location="1.1"></span>
+        <span class="cursor" data-location="1.2"></span>
+        <span class="cursor" data-location="2.0"></span>
+        <span class="cursor" data-location="2.1"></span>
+        <span class="cursor" data-location="2.2"></span>
+      </section>
+    </div>
+    <button class="buttons disable" id="btnPlayAgain" disabled>Jogar Novamente</button>
+  </body>
+</html>
