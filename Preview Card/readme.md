@@ -5,6 +5,6 @@
 
 <div align="center">
 <img width=500px src="https://cdn.discordapp.com/attachments/836401633272660011/1098767889785442346/image.png">
-<img width=500px src="https://cdn.discordapp.com/attachments/836401633272660011/1098767996303986778/image.png">
+<img width=245px src="https://cdn.discordapp.com/attachments/836401633272660011/1098767996303986778/image.png">
 </div>
 
