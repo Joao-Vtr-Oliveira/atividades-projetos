@@ -7,7 +7,7 @@
 <h1 align="center">tic-tac-toe</h1>
 <h3 align="center">Exercício básico utilizando as ferramentas acima, com funcionamento padrão de um jogo da velha.</h3>
 <a href="https://codepen.io/Joao-Vtr-Oliveira/full/eYPBWZZ">Teste aqui!</a>
-<br />|
+<br />
 
 - Segue exemplos:
 
